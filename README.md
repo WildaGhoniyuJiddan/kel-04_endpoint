@@ -118,15 +118,27 @@ Saat server berjalan, buka browser dan akses:
 
 ### A. Menjalankan Server Backend
 
-1. **Pastikan berada di folder `kel-04_endpoint`**:
+1. **Clone repository dan masuk ke direktori**:
    ```bash
-   cd "D:\Kuliah semester 5\IAK\kel-04_endpoint"
+   git clone https://github.com/WildaGhoniyuJiddan/kel-04_endpoint.git
+   cd kel-04_endpoint
    ```
-2. **Jalankan server aplikasi (mode development)**:
+
+2. **Instal dependensi (disarankan pnpm, atau npm)**:
+   ```bash
+   pnpm install
+   # atau jika menggunakan npm:
+   npm install
+   ```
+
+3. **Jalankan server aplikasi (mode development)**:
    ```bash
    pnpm start:dev
+   # atau jika menggunakan npm:
+   npm run start:dev
    ```
    Aplikasi akan aktif di `http://localhost:3000`.
+   Dokumentasi interaktif OpenAPI (Swagger UI) dapat diakses di `http://localhost:3000/docs`.
 
 ---
 
